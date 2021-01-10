@@ -7,7 +7,7 @@ commonLabels:
   kustomize.component: istio-ingress
 configMapGenerator:
 - literals:
-  - loadBalancerScheme=internet-facing
+  - loadBalancerScheme=internal
   name: istio-ingress-config
 generatorOptions:
   disableNameSuffixHash: true
